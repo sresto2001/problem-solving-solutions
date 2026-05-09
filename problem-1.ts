@@ -1,8 +1,10 @@
 
-const filterEvenNumbers = (numbers: number[]): number[] => {
-  return numbers.filter((num) => num % 2 === 0);
-};
 
-const EvenResulT = filterEvenNumbers([1, 2, 3, 4, 5, 6]);
+function filterEvenNumbers(numbers: number[]):number[]{
+  return numbers.filter((number)=>number%2==0);
+}
 
-console.log(EvenResulT);
+const inputNumbers:number[]=[1,2,3,4,5,6];
+const result :number[]= filterEvenNumbers(inputNumbers);
+
+result;
